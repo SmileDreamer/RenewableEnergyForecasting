@@ -1,0 +1,276 @@
+辐照度    False
+风速     False
+风向     False
+温度     False
+压强     False
+湿度     False
+dtype: bool
+辐照度    False
+风速     False
+风向     False
+温度     False
+压强     False
+湿度     False
+dtype: bool
+        辐照度  风速  风向  温度  压强  湿度
+0       NaN NaN NaN NaN NaN NaN
+1       NaN NaN NaN NaN NaN NaN
+2       NaN NaN NaN NaN NaN NaN
+3       NaN NaN NaN NaN NaN NaN
+4       NaN NaN NaN NaN NaN NaN
+...     ...  ..  ..  ..  ..  ..
+114481  NaN NaN NaN NaN NaN NaN
+114482  NaN NaN NaN NaN NaN NaN
+114483  NaN NaN NaN NaN NaN NaN
+114484  NaN NaN NaN NaN NaN NaN
+114485  NaN NaN NaN NaN NaN NaN
+
+[114486 rows x 6 columns]
+温度差         False
+白天温度差       False
+夜晚温度差       False
+温度std       False
+白天温度std     False
+夜晚温度std     False
+温度mean      False
+白天温度mean    False
+夜晚温度mean    False
+dtype: bool
+温度差         False
+白天温度差       False
+夜晚温度差       False
+温度std       False
+白天温度std     False
+夜晚温度std     False
+温度mean      False
+白天温度mean    False
+夜晚温度mean    False
+dtype: bool
+        温度差  白天温度差  夜晚温度差  温度std  白天温度std  夜晚温度std  温度mean  白天温度mean  夜晚温度mean
+0       NaN    NaN    NaN    NaN      NaN      NaN     NaN       NaN       NaN
+1       NaN    NaN    NaN    NaN      NaN      NaN     NaN       NaN       NaN
+2       NaN    NaN    NaN    NaN      NaN      NaN     NaN       NaN       NaN
+3       NaN    NaN    NaN    NaN      NaN      NaN     NaN       NaN       NaN
+4       NaN    NaN    NaN    NaN      NaN      NaN     NaN       NaN       NaN
+...     ...    ...    ...    ...      ...      ...     ...       ...       ...
+114481  NaN    NaN    NaN    NaN      NaN      NaN     NaN       NaN       NaN
+114482  NaN    NaN    NaN    NaN      NaN      NaN     NaN       NaN       NaN
+114483  NaN    NaN    NaN    NaN      NaN      NaN     NaN       NaN       NaN
+114484  NaN    NaN    NaN    NaN      NaN      NaN     NaN       NaN       NaN
+114485  NaN    NaN    NaN    NaN      NaN      NaN     NaN       NaN       NaN
+
+[114486 rows x 9 columns]
+train_1.csv
+['month', '夜晚温度mean^2', '白天温度mean 夜晚温度mean', '白天温度mean^2', '温度mean 夜晚温度mean', '温度mean 白天温度mean', '温度mean^2', '夜晚温度std 夜晚温度mean', '夜晚温度std 白天温度mean', '夜晚温度std 温度mean', '夜晚温度std^2', '白天温度std 夜晚温度mean', '白天温度std 白天温度mean', '白天温度std 温度mean', '白天温度std 夜晚温度std', '白天温度std^2', '温度std 夜晚温度mean', '温度std 白天温度mean', '温度std 温度mean', '温度std 夜晚温度std', '温度std 白天温度std', '温度std^2', '夜晚温度差 夜晚温度mean', '夜晚温度差 白天温度mean', '夜晚温度差 温度mean', '夜晚温度差 夜晚温度std', '夜晚温度差 白天温度std', '夜晚温度差 温度std', '夜晚温度差^2', '白天温度差 夜晚温度mean', '白天温度差 白天温度mean', '白天温度差 温度mean', '白天温度差 夜晚温度std', '白天温度差 白天温度std', '白天温度差 温度std', '白天温度差 夜晚温度差', '白天温度差^2', '温度差 夜晚温度mean', '温度差 白天温度mean', '温度差 温度mean', '温度差 夜晚温度std', '温度差 白天温度std', '温度差 温度std', '温度差 夜晚温度差', '温度差 白天温度差', '温度差^2', '夜晚温度mean', '白天温度mean', '温度mean', '夜晚温度std', '白天温度std', '温度std', '夜晚温度差', '白天温度差', '温度差', '湿度^2', '压强 湿度', '压强^2', '温度 湿度', '温度 压强', '温度^2', '风向 湿度', '风向 压强', '风向 温度', '风向^2', '风速 湿度', '风速 压强', '风速 温度', '风速 风向', '风速^2', '辐照度 湿度', '辐照度 压强', '辐照度 温度', '辐照度 风向', '辐照度 风速', '辐照度^2', '湿度', '压强', '温度', '风向', '风速', '辐照度', 'day', 'time', 'dis2peak_辐照度', '辐照度+风速', '辐照度+风向', '辐照度+温度', '辐照度+压强', '辐照度+湿度', '风速+风向', '风速+温度', '风速+压强', '风速+湿度', '风向+温度', '风向+压强', '风向+湿度', '温度+压强', '温度+湿度', '压强+湿度', '辐照度/风速', '辐照度/风向', '辐照度/温度', '辐照度/压强', '辐照度/湿度', '风速/辐照度', '风速/风向', '风速/温度', '风速/压强', '风速/湿度', '风向/辐照度', '风向/风速', '风向/温度', '风向/压强', '风向/湿度', '温度/辐照度', '温度/风速', '温度/风向', '温度/压强', '温度/湿度', '压强/辐照度', '压强/风速', '压强/风向', '压强/温度', '压强/湿度', '湿度/辐照度', '湿度/风速', '湿度/风向', '湿度/温度', '湿度/压强', '湿度差', '白天湿度差', '夜晚湿度差', '湿度std', '白天湿度std', '夜晚湿度std', '湿度mean', '白天湿度mean', '夜晚湿度mean', '压强差', '白天压强差', '夜晚压强差', '压强std', '白天压强std', '夜晚压强std', '压强mean', '白天压强mean', '夜晚压强mean', '风速差', '白天风速差', '夜晚风速差', '风速std', '白天风速std', '夜晚风速std', '风速mean', '白天风速mean', '夜晚风速mean', 'max辐照度', '白天辐照度差', '白天辐照度mean', '白天辐照度std']
+161
+辐照度    False
+风速     False
+风向     False
+温度     False
+压强     False
+湿度     False
+dtype: bool
+辐照度    False
+风速     False
+风向     False
+温度     False
+压强     False
+湿度     False
+dtype: bool
+       辐照度  风速  风向  温度  压强  湿度
+0      NaN NaN NaN NaN NaN NaN
+1      NaN NaN NaN NaN NaN NaN
+2      NaN NaN NaN NaN NaN NaN
+3      NaN NaN NaN NaN NaN NaN
+4      NaN NaN NaN NaN NaN NaN
+...    ...  ..  ..  ..  ..  ..
+55950  NaN NaN NaN NaN NaN NaN
+55951  NaN NaN NaN NaN NaN NaN
+55952  NaN NaN NaN NaN NaN NaN
+55953  NaN NaN NaN NaN NaN NaN
+55954  NaN NaN NaN NaN NaN NaN
+
+[55955 rows x 6 columns]
+温度差         False
+白天温度差       False
+夜晚温度差       False
+温度std       False
+白天温度std     False
+夜晚温度std     False
+温度mean      False
+白天温度mean    False
+夜晚温度mean    False
+dtype: bool
+温度差         False
+白天温度差       False
+夜晚温度差       False
+温度std       False
+白天温度std     False
+夜晚温度std     False
+温度mean      False
+白天温度mean    False
+夜晚温度mean    False
+dtype: bool
+       温度差  白天温度差  夜晚温度差  温度std  白天温度std  夜晚温度std  温度mean  白天温度mean  夜晚温度mean
+0      NaN    NaN    NaN    NaN      NaN      NaN     NaN       NaN       NaN
+1      NaN    NaN    NaN    NaN      NaN      NaN     NaN       NaN       NaN
+2      NaN    NaN    NaN    NaN      NaN      NaN     NaN       NaN       NaN
+3      NaN    NaN    NaN    NaN      NaN      NaN     NaN       NaN       NaN
+4      NaN    NaN    NaN    NaN      NaN      NaN     NaN       NaN       NaN
+...    ...    ...    ...    ...      ...      ...     ...       ...       ...
+55950  NaN    NaN    NaN    NaN      NaN      NaN     NaN       NaN       NaN
+55951  NaN    NaN    NaN    NaN      NaN      NaN     NaN       NaN       NaN
+55952  NaN    NaN    NaN    NaN      NaN      NaN     NaN       NaN       NaN
+55953  NaN    NaN    NaN    NaN      NaN      NaN     NaN       NaN       NaN
+55954  NaN    NaN    NaN    NaN      NaN      NaN     NaN       NaN       NaN
+
+[55955 rows x 9 columns]
+test_1.csv
+['month', '夜晚温度mean^2', '白天温度mean 夜晚温度mean', '白天温度mean^2', '温度mean 夜晚温度mean', '温度mean 白天温度mean', '温度mean^2', '夜晚温度std 夜晚温度mean', '夜晚温度std 白天温度mean', '夜晚温度std 温度mean', '夜晚温度std^2', '白天温度std 夜晚温度mean', '白天温度std 白天温度mean', '白天温度std 温度mean', '白天温度std 夜晚温度std', '白天温度std^2', '温度std 夜晚温度mean', '温度std 白天温度mean', '温度std 温度mean', '温度std 夜晚温度std', '温度std 白天温度std', '温度std^2', '夜晚温度差 夜晚温度mean', '夜晚温度差 白天温度mean', '夜晚温度差 温度mean', '夜晚温度差 夜晚温度std', '夜晚温度差 白天温度std', '夜晚温度差 温度std', '夜晚温度差^2', '白天温度差 夜晚温度mean', '白天温度差 白天温度mean', '白天温度差 温度mean', '白天温度差 夜晚温度std', '白天温度差 白天温度std', '白天温度差 温度std', '白天温度差 夜晚温度差', '白天温度差^2', '温度差 夜晚温度mean', '温度差 白天温度mean', '温度差 温度mean', '温度差 夜晚温度std', '温度差 白天温度std', '温度差 温度std', '温度差 夜晚温度差', '温度差 白天温度差', '温度差^2', '夜晚温度mean', '白天温度mean', '温度mean', '夜晚温度std', '白天温度std', '温度std', '夜晚温度差', '白天温度差', '温度差', '湿度^2', '压强 湿度', '压强^2', '温度 湿度', '温度 压强', '温度^2', '风向 湿度', '风向 压强', '风向 温度', '风向^2', '风速 湿度', '风速 压强', '风速 温度', '风速 风向', '风速^2', '辐照度 湿度', '辐照度 压强', '辐照度 温度', '辐照度 风向', '辐照度 风速', '辐照度^2', '湿度', '压强', '温度', '风向', '风速', '辐照度', 'day', 'time', 'dis2peak_辐照度', '辐照度+风速', '辐照度+风向', '辐照度+温度', '辐照度+压强', '辐照度+湿度', '风速+风向', '风速+温度', '风速+压强', '风速+湿度', '风向+温度', '风向+压强', '风向+湿度', '温度+压强', '温度+湿度', '压强+湿度', '辐照度/风速', '辐照度/风向', '辐照度/温度', '辐照度/压强', '辐照度/湿度', '风速/辐照度', '风速/风向', '风速/温度', '风速/压强', '风速/湿度', '风向/辐照度', '风向/风速', '风向/温度', '风向/压强', '风向/湿度', '温度/辐照度', '温度/风速', '温度/风向', '温度/压强', '温度/湿度', '压强/辐照度', '压强/风速', '压强/风向', '压强/温度', '压强/湿度', '湿度/辐照度', '湿度/风速', '湿度/风向', '湿度/温度', '湿度/压强', '湿度差', '白天湿度差', '夜晚湿度差', '湿度std', '白天湿度std', '夜晚湿度std', '湿度mean', '白天湿度mean', '夜晚湿度mean', '压强差', '白天压强差', '夜晚压强差', '压强std', '白天压强std', '夜晚压强std', '压强mean', '白天压强mean', '夜晚压强mean', '风速差', '白天风速差', '夜晚风速差', '风速std', '白天风速std', '夜晚风速std', '风速mean', '白天风速mean', '夜晚风速mean', 'max辐照度', '白天辐照度差', '白天辐照度mean', '白天辐照度std']
+161
+begin train
+[LightGBM] [Warning] Unknown parameter: bagging_frequency
+Training until validation scores don't improve for 100 rounds
+[100]	valid_0's l2: 0.0610449
+[200]	valid_0's l2: 0.0321452
+[300]	valid_0's l2: 0.0272773
+[400]	valid_0's l2: 0.0251314
+[500]	valid_0's l2: 0.0239098
+[600]	valid_0's l2: 0.0231045
+[700]	valid_0's l2: 0.0224614
+[800]	valid_0's l2: 0.0220233
+[900]	valid_0's l2: 0.0216389
+[1000]	valid_0's l2: 0.0213208
+[1100]	valid_0's l2: 0.0210831
+[1200]	valid_0's l2: 0.0208687
+[1300]	valid_0's l2: 0.0206395
+[1400]	valid_0's l2: 0.0204582
+[1500]	valid_0's l2: 0.0202965
+[1600]	valid_0's l2: 0.0201663
+[1700]	valid_0's l2: 0.0200695
+[1800]	valid_0's l2: 0.0199783
+[1900]	valid_0's l2: 0.0198837
+[2000]	valid_0's l2: 0.0197965
+[2100]	valid_0's l2: 0.0197074
+[2200]	valid_0's l2: 0.0196211
+[2300]	valid_0's l2: 0.0195489
+[2400]	valid_0's l2: 0.0194878
+[2500]	valid_0's l2: 0.0194306
+[2600]	valid_0's l2: 0.0193624
+[2700]	valid_0's l2: 0.0193153
+[2800]	valid_0's l2: 0.0192631
+[2900]	valid_0's l2: 0.0192342
+[3000]	valid_0's l2: 0.0191954
+[3100]	valid_0's l2: 0.0191631
+[3200]	valid_0's l2: 0.0191257
+[3300]	valid_0's l2: 0.0190895
+[3400]	valid_0's l2: 0.0190615
+[3500]	valid_0's l2: 0.0190206
+[3600]	valid_0's l2: 0.0189748
+[3700]	valid_0's l2: 0.018953
+[3800]	valid_0's l2: 0.0189159
+[3900]	valid_0's l2: 0.0188788
+[4000]	valid_0's l2: 0.0188549
+[4100]	valid_0's l2: 0.0188311
+[4200]	valid_0's l2: 0.0188158
+[4300]	valid_0's l2: 0.0188
+[4400]	valid_0's l2: 0.018777
+[4500]	valid_0's l2: 0.0187718
+[4600]	valid_0's l2: 0.0187555
+[4700]	valid_0's l2: 0.018733
+[4800]	valid_0's l2: 0.018719
+[4900]	valid_0's l2: 0.0187077
+[5000]	valid_0's l2: 0.0186873
+[5100]	valid_0's l2: 0.0186648
+[5200]	valid_0's l2: 0.0186477
+[5300]	valid_0's l2: 0.0186364
+[5400]	valid_0's l2: 0.0186204
+[5500]	valid_0's l2: 0.0186
+[5600]	valid_0's l2: 0.018584
+[5700]	valid_0's l2: 0.0185628
+[5800]	valid_0's l2: 0.0185538
+[5900]	valid_0's l2: 0.0185464
+[6000]	valid_0's l2: 0.0185315
+[6100]	valid_0's l2: 0.0185228
+[6200]	valid_0's l2: 0.0185087
+[6300]	valid_0's l2: 0.0185007
+[6400]	valid_0's l2: 0.018487
+[6500]	valid_0's l2: 0.0184687
+[6600]	valid_0's l2: 0.0184587
+[6700]	valid_0's l2: 0.0184472
+[6800]	valid_0's l2: 0.0184397
+[6900]	valid_0's l2: 0.0184343
+Early stopping, best iteration is:
+[6868]	valid_0's l2: 0.0184319
+begin train
+[10:31:04] WARNING: /croot/xgboost-split_1675119646044/work/src/objective/regression_obj.cu:188: reg:linear is now deprecated in favor of reg:squarederror.
+[10:31:04] WARNING: /croot/xgboost-split_1675119646044/work/src/learner.cc:576: 
+Parameters: { "reg_lamda", "silent" } might not be used.
+
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+
+
+score :  0.9589228803838877
+['month', '夜晚温度mean^2', '白天温度mean 夜晚温度mean', '白天温度mean^2', '温度mean 夜晚温度mean', '温度mean 白天温度mean', '温度mean^2', '夜晚温度std 夜晚温度mean', '夜晚温度std 白天温度mean', '夜晚温度std 温度mean', '夜晚温度std^2', '白天温度std 夜晚温度mean', '白天温度std 白天温度mean', '白天温度std 温度mean', '白天温度std 夜晚温度std', '白天温度std^2', '温度std 夜晚温度mean', '温度std 白天温度mean', '温度std 温度mean', '温度std 夜晚温度std', '温度std 白天温度std', '温度std^2', '夜晚温度差 夜晚温度mean', '夜晚温度差 白天温度mean', '夜晚温度差 温度mean', '夜晚温度差 夜晚温度std', '夜晚温度差 白天温度std', '夜晚温度差 温度std', '夜晚温度差^2', '白天温度差 夜晚温度mean', '白天温度差 白天温度mean', '白天温度差 温度mean', '白天温度差 夜晚温度std', '白天温度差 白天温度std', '白天温度差 温度std', '白天温度差 夜晚温度差', '白天温度差^2', '温度差 夜晚温度mean', '温度差 白天温度mean', '温度差 温度mean', '温度差 夜晚温度std', '温度差 白天温度std', '温度差 温度std', '温度差 夜晚温度差', '温度差 白天温度差', '温度差^2', '夜晚温度mean', '白天温度mean', '温度mean', '夜晚温度std', '白天温度std', '温度std', '夜晚温度差', '白天温度差', '温度差', '湿度^2', '压强 湿度', '压强^2', '温度 湿度', '温度 压强', '温度^2', '风向 湿度', '风向 压强', '风向 温度', '风向^2', '风速 湿度', '风速 压强', '风速 温度', '风速 风向', '风速^2', '辐照度 湿度', '辐照度 压强', '辐照度 温度', '辐照度 风向', '辐照度 风速', '辐照度^2', '湿度', '压强', '温度', '风向', '风速', '辐照度', 'day', 'time', 'dis2peak_辐照度', '辐照度+风速', '辐照度+风向', '辐照度+温度', '辐照度+压强', '辐照度+湿度', '风速+风向', '风速+温度', '风速+压强', '风速+湿度', '风向+温度', '风向+压强', '风向+湿度', '温度+压强', '温度+湿度', '压强+湿度', '辐照度/风速', '辐照度/风向', '辐照度/温度', '辐照度/压强', '辐照度/湿度', '风速/辐照度', '风速/风向', '风速/温度', '风速/压强', '风速/湿度', '风向/辐照度', '风向/风速', '风向/温度', '风向/压强', '风向/湿度', '温度/辐照度', '温度/风速', '温度/风向', '温度/压强', '温度/湿度', '压强/辐照度', '压强/风速', '压强/风向', '压强/温度', '压强/湿度', '湿度/辐照度', '湿度/风速', '湿度/风向', '湿度/温度', '湿度/压强', '湿度差', '白天湿度差', '夜晚湿度差', '湿度std', '白天湿度std', '夜晚湿度std', '湿度mean', '白天湿度mean', '夜晚湿度mean', '压强差', '白天压强差', '夜晚压强差', '压强std', '白天压强std', '夜晚压强std', '压强mean', '白天压强mean', '夜晚压强mean', '风速差', '白天风速差', '夜晚风速差', '风速std', '白天风速std', '夜晚风速std', '风速mean', '白天风速mean', '夜晚风速mean', 'max辐照度', '白天辐照度差', '白天辐照度mean', '白天辐照度std', '实发辐照度', 'max实发辐照度', '白天实发辐照度mean', '白天实发辐照度std', '白天实发辐照度差', 'dis2peak_实发辐照度', '平均辐照度']
+168
+['month', '夜晚温度mean^2', '白天温度mean 夜晚温度mean', '白天温度mean^2', '温度mean 夜晚温度mean', '温度mean 白天温度mean', '温度mean^2', '夜晚温度std 夜晚温度mean', '夜晚温度std 白天温度mean', '夜晚温度std 温度mean', '夜晚温度std^2', '白天温度std 夜晚温度mean', '白天温度std 白天温度mean', '白天温度std 温度mean', '白天温度std 夜晚温度std', '白天温度std^2', '温度std 夜晚温度mean', '温度std 白天温度mean', '温度std 温度mean', '温度std 夜晚温度std', '温度std 白天温度std', '温度std^2', '夜晚温度差 夜晚温度mean', '夜晚温度差 白天温度mean', '夜晚温度差 温度mean', '夜晚温度差 夜晚温度std', '夜晚温度差 白天温度std', '夜晚温度差 温度std', '夜晚温度差^2', '白天温度差 夜晚温度mean', '白天温度差 白天温度mean', '白天温度差 温度mean', '白天温度差 夜晚温度std', '白天温度差 白天温度std', '白天温度差 温度std', '白天温度差 夜晚温度差', '白天温度差^2', '温度差 夜晚温度mean', '温度差 白天温度mean', '温度差 温度mean', '温度差 夜晚温度std', '温度差 白天温度std', '温度差 温度std', '温度差 夜晚温度差', '温度差 白天温度差', '温度差^2', '夜晚温度mean', '白天温度mean', '温度mean', '夜晚温度std', '白天温度std', '温度std', '夜晚温度差', '白天温度差', '温度差', '湿度^2', '压强 湿度', '压强^2', '温度 湿度', '温度 压强', '温度^2', '风向 湿度', '风向 压强', '风向 温度', '风向^2', '风速 湿度', '风速 压强', '风速 温度', '风速 风向', '风速^2', '辐照度 湿度', '辐照度 压强', '辐照度 温度', '辐照度 风向', '辐照度 风速', '辐照度^2', '湿度', '压强', '温度', '风向', '风速', '辐照度', 'day', 'time', 'dis2peak_辐照度', '辐照度+风速', '辐照度+风向', '辐照度+温度', '辐照度+压强', '辐照度+湿度', '风速+风向', '风速+温度', '风速+压强', '风速+湿度', '风向+温度', '风向+压强', '风向+湿度', '温度+压强', '温度+湿度', '压强+湿度', '辐照度/风速', '辐照度/风向', '辐照度/温度', '辐照度/压强', '辐照度/湿度', '风速/辐照度', '风速/风向', '风速/温度', '风速/压强', '风速/湿度', '风向/辐照度', '风向/风速', '风向/温度', '风向/压强', '风向/湿度', '温度/辐照度', '温度/风速', '温度/风向', '温度/压强', '温度/湿度', '压强/辐照度', '压强/风速', '压强/风向', '压强/温度', '压强/湿度', '湿度/辐照度', '湿度/风速', '湿度/风向', '湿度/温度', '湿度/压强', '湿度差', '白天湿度差', '夜晚湿度差', '湿度std', '白天湿度std', '夜晚湿度std', '湿度mean', '白天湿度mean', '夜晚湿度mean', '压强差', '白天压强差', '夜晚压强差', '压强std', '白天压强std', '夜晚压强std', '压强mean', '白天压强mean', '夜晚压强mean', '风速差', '白天风速差', '夜晚风速差', '风速std', '白天风速std', '夜晚风速std', '风速mean', '白天风速mean', '夜晚风速mean', 'max辐照度', '白天辐照度差', '白天辐照度mean', '白天辐照度std', '实发辐照度', 'max实发辐照度', '白天实发辐照度mean', '白天实发辐照度std', '白天实发辐照度差', 'dis2peak_实发辐照度', '平均辐照度']
+168
+begin train
+[LightGBM] [Warning] Unknown parameter: bagging_frequency
+Training until validation scores don't improve for 100 rounds
+[100]	valid_0's l2: 0.251732
+[200]	valid_0's l2: 0.0684605
+[300]	valid_0's l2: 0.051759
+[400]	valid_0's l2: 0.0459013
+[500]	valid_0's l2: 0.0430867
+[600]	valid_0's l2: 0.0411188
+[700]	valid_0's l2: 0.0398379
+[800]	valid_0's l2: 0.038851
+[900]	valid_0's l2: 0.0380162
+[1000]	valid_0's l2: 0.0373635
+[1100]	valid_0's l2: 0.036843
+[1200]	valid_0's l2: 0.0363602
+[1300]	valid_0's l2: 0.03602
+[1400]	valid_0's l2: 0.035707
+[1500]	valid_0's l2: 0.0353805
+[1600]	valid_0's l2: 0.0351332
+[1700]	valid_0's l2: 0.0349323
+[1800]	valid_0's l2: 0.0346063
+[1900]	valid_0's l2: 0.0344595
+[2000]	valid_0's l2: 0.0343033
+[2100]	valid_0's l2: 0.0341682
+[2200]	valid_0's l2: 0.0340711
+[2300]	valid_0's l2: 0.033955
+[2400]	valid_0's l2: 0.0338712
+[2500]	valid_0's l2: 0.0337699
+[2600]	valid_0's l2: 0.033711
+[2700]	valid_0's l2: 0.0336567
+[2800]	valid_0's l2: 0.0336121
+[2900]	valid_0's l2: 0.033558
+[3000]	valid_0's l2: 0.0335159
+[3100]	valid_0's l2: 0.0334288
+[3200]	valid_0's l2: 0.0333633
+[3300]	valid_0's l2: 0.033313
+[3400]	valid_0's l2: 0.0332966
+[3500]	valid_0's l2: 0.0332732
+[3600]	valid_0's l2: 0.0332529
+[3700]	valid_0's l2: 0.0332313
+[3800]	valid_0's l2: 0.0331989
+[3900]	valid_0's l2: 0.0331881
+[4000]	valid_0's l2: 0.0331832
+Early stopping, best iteration is:
+[3957]	valid_0's l2: 0.0331724
+begin train
+[10:32:58] WARNING: /croot/xgboost-split_1675119646044/work/src/objective/regression_obj.cu:188: reg:linear is now deprecated in favor of reg:squarederror.
+[10:32:58] WARNING: /croot/xgboost-split_1675119646044/work/src/learner.cc:576: 
+Parameters: { "reg_lamda", "silent" } might not be used.
+
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+
+
+score :  0.9874066503838999
+total time used is 7.000000min 38.288248s
